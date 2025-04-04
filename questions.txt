@@ -1,0 +1,5 @@
+->3 rat problem
+weight of any two rats increase by 1 per day but weight of 1 rat decrease by 1 per day. which day weight of all rats will be same.
+
+-> chess board
+a pyada can move diagonally find maximum box can they can travel;

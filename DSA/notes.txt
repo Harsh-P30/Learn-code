@@ -1,0 +1,5 @@
+vector ->   dynamic array & class base data structure 
+    .push_back use for input and .pop_back use for print  {use when structure is dynamically   (vector<int>arr;) ( static -> vector<int>arr(7); )}
+    
+
+//not-in-place or out-of-place

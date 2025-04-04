@@ -1,0 +1,130 @@
+total-90
+completed:-6
+last date to complete :- 31oct complete till string(46)
+
+
+Array ->
+Travesing, Insertion , Searching , Deletion , Update,merging  
+
+Concise Array Problems List
+
+Here’s the numbered list of the array problems:
+
+1. Traverse and print each element in an array. ✅✅
+2. Insert an element at a specific position in an array.✅✅
+3. Delete an element from a specific position in an array.✅✅
+4. Find the maximum and minimum elements in an array.✅✅
+5. Find the second largest element in an array.✅✅
+6. Find the element that appears only once in an array where all other elements appear twice.✅✅
+7. Implement Linear Search.✅✅
+8. Implement Binary Search on a sorted array.✅✅
+9. Reverse the entire array. ✅✅
+10. Rotate an array to the left by `k` positions.✅
+11. Find the largest sum contiguous subarray (Kadane’s Algorithm).✅
+12. Implement Bubble Sort.✅
+13. Implement Merge Sort.✅
+14. Rearrange the array in alternating positive and negative numbers.✅
+15. Find all subarrays with a sum equal to zero.
+16. Find the longest consecutive subsequence.
+17. Find the maximum product subarray.
+18. Find the first repeating element in an array.
+19. Find the "Kth" largest element in an array.
+20. Merge two sorted arrays without using extra space.
+21. Rotate a matrix by 90 degrees clockwise.
+22. Find the missing number in an array of size `n-1` containing numbers from `1 to n`. ✅
+23. Implement the maximum sum increasing subsequence.
+24. Solve the "3Sum" problem.
+25. Find the maximum sum of `k` consecutive elements in an array.
+26. Solve the Two Sum problem.✅✅
+27. Solve the Best Time to Buy and Sell Stock problem.
+28. Solve the Product of Array Except Self problem.
+29. Find the element that appears two time in an array where all other elements appear once.  ✅✅
+
+
+
+
+string -> 
+concatenation, scanning, substringing, translation, and verification
+Here’s the numbered list of string problems:
+
+1. Reverse a string. ✅✅
+2. Check if a string is a palindrome.✅
+3. Count the frequency of each character in a string.
+4. Find the first non-repeating character in a string.
+5. Generate all substrings of a string.✅
+6. Find the longest common subsequence between two strings.
+7. Implement the Knuth-Morris-Pratt (KMP) pattern searching algorithm.
+8. Find all occurrences of a pattern in a string.
+9. Generate all permutations of a string.
+10. Find all anagrams of a string in another string.
+11. Find the longest palindromic substring in a string.
+12. Check if two strings are rotations of each other.
+13. Implement a function to check if two strings are anagrams.
+14. Replace all spaces in a string with `%20` (URL encoding).
+15. Implement the Edit Distance (Levenshtein Distance) algorithm.
+16. Find the longest common substring between two strings.
+17. Find the smallest window in a string that contains all characters of another string.
+18. Solve LeetCode's "Longest Substring Without Repeating Characters."
+
+
+Pointer Arithmetic -> 
+1.Perform arithmetic operations on pointers (e.g., increment, decrement).
+2.Find the difference between two pointers.
+3.Understand pointer arithmetic in arrays
+
+Pointer and Array Relationship -> 
+1.Access array elements using pointers.
+2.Pass an array to a function using a pointer.
+3.Implement a function that returns a pointer to an array.
+
+Stack ->
+Here’s the numbered list of stack problems:
+
+1. Implement a stack using arrays
+2. Push an element into a stack
+3. Pop an element from a stack
+4. Peek at the top element of a stack
+5. Check if the stack is empty
+6. Evaluate a postfix expression (Reverse Polish Notation)
+7. Convert an infix expression to postfix notation
+8. Check for balanced parentheses in an expression
+9. Implement a stack that supports retrieving the minimum element in constant time
+10. Sort a stack using another stack
+11. Find the next greater element for each element in an array using a stack
+12. Find the largest rectangle in a histogram using a stack
+
+
+Queue ->
+Here’s the numbered list of queue problems:
+
+1. Implement a queue using arrays
+2. Implement a queue using linked lists
+3. Enqueue an element into a queue
+4. Dequeue an element from a queue
+5. Peek at the front element of a queue
+6. Check if the queue is empty
+7. Implement a circular queue using arrays
+8. Implement a queue using two stacks
+9. Implement a priority queue
+10. Find the size of a queue
+11. Reverse the first `k` elements of a queue
+
+
+linked-list ->
+Here’s the numbered list of linked list problems:
+
+1. Implement a singly linked list
+2. Implement a doubly linked list
+3. Add an element to the front of a linked list
+4. Add an element to the end of a linked list
+5. Delete an element from the front of a linked list
+6. Delete an element from the end of a linked list
+7. Delete a specific element from a linked list
+8. Search for an element in a linked list
+9. Reverse a singly linked list
+10. Find the middle element of a linked list
+11. Detect a cycle in a linked list
+12. Remove duplicates from a linked list
+13. Merge two sorted linked lists
+14. Find the nth node from the end of a linked list
+15. Implement a function to get the length of a linked list
