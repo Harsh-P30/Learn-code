@@ -30,6 +30,38 @@ void InsertAtHead(Node *&head, int d) // Insert at Head;
     // Makes head point to the new node (temp).
 }
 
+// Insert at last
+
+void InsertAtTail(Node *&tail,int d){
+    Node* temp = new Node(d);// Calls the Node constructor with value d. Dynamically allocates memory using new. temp now points to this new node.
+    tail->next= temp; // make temp as tail 
+    tail = temp;
+}
+
+void InsertAtPosition(Node *&head, Node *&tail, int pos , int d){
+    if(pos==1){
+        InsertAtHead(head,d);
+        return;
+    }
+    Node* temp = head;
+    int cnt =1;
+    while (cnt<pos-1)
+    {
+        temp=temp->next;
+        cnt++;
+    }
+    if(temp->next == NULL){
+        InsertAtTail(tail,d);
+        return;
+    }
+
+
+    Node* nodeToInsert = new Node(d);
+    nodeToInsert->next = temp->next;
+    temp->next= nodeToInsert;
+    
+}
+
 void print(Node *&head) // take the Head
 {
     Node *temp = head;   // new node create put head into it
@@ -38,13 +70,21 @@ void print(Node *&head) // take the Head
         cout << temp->data << " -> "; // print data of temp
         temp = temp->next;            // move temp to next
     }
+    cout<<endl;
 }
 
 int main()
 {
     Node *node1 = new Node(10); // create a Node ** mandatory
     Node *head = node1;         //  set just created node as Head
+    Node *tail = node1;         //  set just created node as Tail
     InsertAtHead(head, 12);     // call function giving argument as Head and value
     InsertAtHead(head, 15);
+
+    InsertAtTail(tail, 85);
+    InsertAtPosition(head,tail, 5,89);
+    print(head);
+    InsertAtPosition(head,tail, 5,9);
+    InsertAtTail(tail, 8);
     print(head);
 }
